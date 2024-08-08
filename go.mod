@@ -1,6 +1,6 @@
 module github.com/Cellularhacker/core-go
 
-go 1.22.5
+go 1.22.6
 
 require (
 	github.com/Cellularhacker/logger v1.0.2
