@@ -3,7 +3,7 @@ module github.com/Cellularhacker/core-go
 go 1.23.0
 
 require (
-	github.com/Cellularhacker/logger v1.0.2
+	github.com/Cellularhacker/logger v1.0.3
 	github.com/joho/godotenv v1.5.1
 )
 
