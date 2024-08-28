@@ -7,9 +7,8 @@ const (
 )
 
 var (
-	TimeZoneKST, _ = time.LoadLocation("Asia/Seoul")
-	TimeZoneJST, _ = time.LoadLocation("Asia/Tokyo")
-	TimeZoneUTC, _ = time.LoadLocation("UTC")
+	tzKST, _ = time.LoadLocation("Asia/Seoul")
+	tzJST, _ = time.LoadLocation("Asia/Tokyo")
 )
 
 func ParseDatetimeInTimeZone(layout string, value string, TZ *time.Location) (time.Time, error) {
@@ -19,11 +18,15 @@ func ParseDatetimeInTimeZone(layout string, value string, TZ *time.Location) (ti
 	}
 
 	switch TZ {
-	case TimeZoneKST, TimeZoneJST:
+	case tzKST, tzJST:
 		return t.Add(9 * time.Hour), nil
-	case TimeZoneUTC:
-		return t.UTC(), nil
 	}
 
 	return t.Local(), nil
+}
+func LocationKST() *time.Location {
+	return tzKST
+}
+func LocationJST() *time.Location {
+	return tzJST
 }
