@@ -50,5 +50,8 @@ func init() {
 			logger.Fatal("github.com/Cellularhacker/core-go", "config.go", "init()", "time.LoadLocation(envLocation)", KeyEnvLocation, envLocation, err)
 		}
 	}
+}
 
+func SetLoc(tz *time.Location) {
+	loc = tz
 }
