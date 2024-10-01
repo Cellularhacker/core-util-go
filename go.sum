@@ -1,5 +1,5 @@
-github.com/Cellularhacker/logger v1.0.3 h1:RZkTMWUeIFQME7jCuRZS9jvUYBO/Y4MP5HDgZ+RTduQ=
-github.com/Cellularhacker/logger v1.0.3/go.mod h1:NvC5fM/fFWkT+MLgWXpMQhW4oHyZbVz631VRSi44g9o=
+github.com/Cellularhacker/logger-go v1.0.4 h1:zF4fjkrvKGOB3IOZ6+H7PIbqShXl3o+F/1iMONRhkAw=
+github.com/Cellularhacker/logger-go v1.0.4/go.mod h1:bC3QFDkIg9xsgXisy9Cjc3OTAvOG4VVbWSiS3SQUgLs=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
